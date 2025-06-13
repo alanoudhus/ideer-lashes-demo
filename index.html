@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <!-- TODO: إضافة وسم meta description لتحسين SEO ووصف المحتوى -->
+  <meta name="description" content="أفضل تصاميم الرموش الصناعية من Ideer Lashes - جودة عالية وخدمة شخصية مميزة">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ideer Lashes</title>
+  <style>
+    /* TODO: نقل CSS إلى ملف خارجي لتقليل حجم الصفحة وتحسين الأداء */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #fdfdfd; color: #333; }
+    header { background: #000; color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    header .logo { font-size: 1.5rem; font-weight: bold; }
+    nav a { color: #fff; margin-left: 1rem; text-decoration: none; }
+    .hero { height: 60vh; background: url('https://via.placeholder.com/1200x600') center/cover no-repeat; display: flex; align-items: center; justify-content: center; }
+    .hero h1 { background: rgba(0,0,0,0.6); padding: 0.5rem 1rem; color: #fff; font-size: 2rem; }
+    .section { padding: 3rem 2rem; }
+    .section h2 { text-align: center; margin-bottom: 2rem; font-size: 1.8rem; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .gallery img { width: 100%; height: auto; border-radius: 8px; /* Consider adding loading="lazy" for deferred loading */ }
+    .contact-form { max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem; }
+    /* TODO: استبدال النمط inline بالاعتماد على CSS class */
+    .contact-form input, .contact-form textarea { padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px; }
+    .contact-form button { padding: 0.8rem; background: #000; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+    footer { background: #000; color: #fff; text-align: center; padding: 1rem; }
+    footer a { color: #fff; text-decoration: none; margin: 0 0.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Ideer Lashes</div>
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#about">من نحن</a>
+      <a href="#gallery">المعرض</a>
+      <a href="#contact">اتصل بنا</a>
+    </nav>
+  </header>
+  <!-- TODO: استخدم وسم <main> لتغليف المحتوى الرئيسي لتعزيز البنية الدلالية -->
+  <main>
+    <section class="hero" id="home">
+      <h1>أحدث تصاميم الرموش الصناعية</h1>
+    </section>
+    <section class="section" id="about">
+      <h2>من نحن</h2>
+      <p class="about-text">مرحبًا بك في Ideer Lashes، المكان المثالي للحصول على أجمل وأحدث تصاميم الرموش الصناعية. نسعى لتلبية احتياجاتك من خلال جودة عالية وخدمة شخصية مميزة.</p>
+    </section>
+    <section class="section" id="gallery">
+      <h2>المعرض</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/300x400" alt="رموش 1" loading="lazy">
+        <img src="https://via.placeholder.com/300x400" alt="رموش 2" loading="lazy">
+        <img src="https://via.placeholder.com/300x400" alt="رموش 3" loading="lazy">
+        <img src="https://via.placeholder.com/300x400" alt="رموش 4" loading="lazy">
+      </div>
+    </section>
+    <section class="section" id="contact">
+      <h2>اتصل بنا</h2>
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="اسمك" required>
+        <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+        <textarea name="message" rows="4" placeholder="رسالتك"></textarea>
+        <button type="submit">أرسل</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>تابعنا على <a href="https://instagram.com/ideer.lashes" target="_blank" rel="noopener">Instagram</a></p>
+    <p>&copy; 2025 Ideer Lashes</p>
+  </footer>
+</body>
+</html>
